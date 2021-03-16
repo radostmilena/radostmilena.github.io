@@ -60,11 +60,11 @@
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><dl class="simple">
-<dt><strong>k</strong><span class="classifier">int</span></dt><dd><p>exponent</p>
+<dt><strong>k : </strong><span class="classifier">int</span></dt><dd><p>exponent</p>
 </dd>
-<dt><strong>N</strong><span class="classifier">int</span></dt><dd><p>base</p>
+<dt><strong>N : </strong><span class="classifier">int</span></dt><dd><p>base</p>
 </dd>
-<dt><strong>grid</strong><span class="classifier">array-like</span></dt><dd><p>3d grid of dimensions N x N x N</p>
+<dt><strong>grid : </strong><span class="classifier">array-like</span></dt><dd><p>3d grid of dimensions N x N x N</p>
 </dd>
 </dl>
 </dd>
@@ -134,7 +134,7 @@
 <dl class="field-list simple">
 <dt class="field-odd">Returns</dt>
 <dd class="field-odd"><dl class="simple">
-<dt><strong>x, y, z</strong><span class="classifier">int</span></dt><dd><p>Initial position of the random walker on the inner sphere.</p>
+<dt><strong>x, y, z : </strong><span class="classifier">int</span></dt><dd><p>Initial position of the random walker on the inner sphere.</p>
 </dd>
 </dl>
 </dd>
@@ -149,19 +149,19 @@ and check distance from center.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><dl class="simple">
-<dt><strong>grid</strong><span class="classifier">array-like</span></dt><dd><p>Initialized grid with filled center.</p>
+<dt><strong>grid : </strong><span class="classifier">array-like</span></dt><dd><p>Initialized grid with filled center.</p>
 </dd>
-<dt><strong>center</strong><span class="classifier">array-like</span></dt><dd><p>Position of the center.</p>
+<dt><strong>center : </strong><span class="classifier">array-like</span></dt><dd><p>Position of the center.</p>
 </dd>
-<dt><strong>x0, y0, z0</strong><span class="classifier">int</span></dt><dd><p>Position of the point in question.</p>
+<dt><strong>x0, y0, z0 : </strong><span class="classifier">int</span></dt><dd><p>Position of the point in question.</p>
 </dd>
 </dl>
 </dd>
 <dt class="field-even">Returns</dt>
 <dd class="field-even"><dl class="simple">
-<dt><strong>dist</strong><span class="classifier">int</span></dt><dd><p>Distance of the point from the center.</p>
+<dt><strong>dist : </strong><span class="classifier">int</span></dt><dd><p>Distance of the point from the center.</p>
 </dd>
-<dt><strong>isum</strong><span class="classifier">int</span></dt><dd><p>Sum of grid values in the vicinity of the point. 
+<dt><strong>isum : </strong><span class="classifier">int</span></dt><dd><p>Sum of grid values in the vicinity of the point. 
 Neighbour points can only vary in one point, 
 i.e. [x0, y0, z+1] or [x0-1, y0, z0], but not [x0+1, y0+1, z0].</p>
 </dd>
@@ -177,7 +177,7 @@ i.e. [x0, y0, z+1] or [x0-1, y0, z0], but not [x0+1, y0+1, z0].</p>
 <dl class="field-list simple">
 <dt class="field-odd">Returns</dt>
 <dd class="field-odd"><dl class="simple">
-<dt><strong>grid</strong><span class="classifier">array-like</span></dt><dd><p>Updated grid after random walker has finished.</p>
+<dt><strong>grid : </strong><span class="classifier">array-like</span></dt><dd><p>Updated grid after random walker has finished.</p>
 </dd>
 </dl>
 </dd>
